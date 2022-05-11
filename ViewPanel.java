@@ -51,9 +51,9 @@ public class ViewPanel extends JPanel{
         g2.setColor(Color.red);
         Path2D p = new Path2D.Double();
         p.moveTo(0, 600);
-        p.quadTo(150, 150, 300, 300);
-        p.moveTo(300, 300);
-        p.quadTo(450, 450, 600, 0);
+        p.quadTo(0, 0, 300, 150);
+        p.moveTo(300, 150);
+        p.quadTo(550, 250, 575, 0);
 
         g2.draw(p);
     }

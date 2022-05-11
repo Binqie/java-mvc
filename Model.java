@@ -18,11 +18,11 @@ public class Model {
         return points;
     }
     public static int Function(int x){
-        return 5*x*x*x+x-30;
+        return x*x*x-3;
     }
     private static float f(double x)
     {
-        return (float) (5*x*x*x+x-30);
+        return (float) (x*x*x-3);
     }
     private static float df(float x)
     {
